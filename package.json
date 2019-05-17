@@ -24,6 +24,11 @@
 		"lsp",
 		"autocad"
 	],
+	"activationEvents": [
+        "onCommand:extension.utf8->codePoint",
+        "onCommand:extension.codePoint->utf8"
+    ],
+    "main": "./extension.js",
 	"contributes": {
 		"languages": [
 			{
@@ -110,6 +115,34 @@
 				"language": "autolisp",
 				"path": "./snippets/snippets-lsp-sysvar.json"
 			}
-		]
+		],
+		"commands": [
+            {
+                "command": "extension.utf8->codePoint",
+                "title": "utf8->codePoint"
+            },
+            {
+                "command": "extension.codePoint->utf8",
+                "title": "codePoint->utf8"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "when": "editorHasSelection",
+                    "command": "extension.utf8->codePoint",
+                    "group": "autolispsup@1"
+                },
+                {
+                    "when": "editorHasSelection",
+                    "command": "extension.codePoint->utf8",
+                    "group": "autolispsup@2"
+                } 
+            ]
+        }
+
+
+
+
 	}
 }
