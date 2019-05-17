@@ -2,7 +2,7 @@
 	"name": "autolisp-language",
 	"displayName": "autolisp language support",
 	"description": "autolisp language syntax highlight and function input support",
-	"version": "1.1.12",
+	"version": "1.1.13",
 	"publisher": "jpnacaduser",
 	"engines": {
 		"vscode": "^1.25.0"
@@ -25,10 +25,10 @@
 		"autocad"
 	],
 	"activationEvents": [
-        "onCommand:extension.utf8->codePoint",
-        "onCommand:extension.codePoint->utf8"
-    ],
-    "main": "./extension.js",
+		"onCommand:extension.utf8->codePoint",
+		"onCommand:extension.codePoint->utf8"
+	],
+	"main": "./extension.js",
 	"contributes": {
 		"languages": [
 			{
@@ -117,32 +117,28 @@
 			}
 		],
 		"commands": [
-            {
-                "command": "extension.utf8->codePoint",
-                "title": "utf8->codePoint"
-            },
-            {
-                "command": "extension.codePoint->utf8",
-                "title": "codePoint->utf8"
-            }
-        ],
-        "menus": {
-            "editor/context": [
-                {
-                    "when": "editorHasSelection",
-                    "command": "extension.utf8->codePoint",
-                    "group": "autolispsup@1"
-                },
-                {
-                    "when": "editorHasSelection",
-                    "command": "extension.codePoint->utf8",
-                    "group": "autolispsup@2"
-                } 
-            ]
-        }
-
-
-
-
+			{
+				"command": "extension.utf8->codePoint",
+				"title": "utf8->codePoint"
+			},
+			{
+				"command": "extension.codePoint->utf8",
+				"title": "codePoint->utf8"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorHasSelection",
+					"command": "extension.utf8->codePoint",
+					"group": "autolispsup@1"
+				},
+				{
+					"when": "editorHasSelection",
+					"command": "extension.codePoint->utf8",
+					"group": "autolispsup@2"
+				}
+			]
+		}
 	}
 }
