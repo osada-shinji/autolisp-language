@@ -6,5 +6,5 @@
 ### DCL support
 ### Default utf8
 
-##[1.2.x] 2019/05/17
+## [1.2.x] 2019/05/17
 ### Unicode conversion support. 
