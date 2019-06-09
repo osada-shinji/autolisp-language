@@ -1,7 +1,7 @@
 # autolisp-language support README
 ## Enjoy autolisp language scripting
 * With extension "lsp".
-* By default in ~~shiftjis~~ utf8.
+* By default in utf8.
 * Syntax highlight.
 * all atoms and sysvar by snippet.
 * autolisp color theme.
@@ -23,6 +23,3 @@
 	"[autolispdcl]": {
 		"files.encoding": "shiftjis"
     },
-
-### if you want to  get  sample go to github
-https://github.com/acaduser/otools
