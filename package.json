@@ -2,7 +2,7 @@
 	"name": "autolisp-language",
 	"displayName": "autolisp language support",
 	"description": "autolisp language syntax highlight and function input support",
-	"version": "1.2.2",
+	"version": "1.3.0",
 	"publisher": "jpnacaduser",
 	"engines": {
 		"vscode": "^1.25.0"
