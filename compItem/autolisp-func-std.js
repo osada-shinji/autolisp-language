@@ -41,6 +41,8 @@ exports.obj = [
     {label: 'atoi',kind: 2},
     {label: 'atom',kind: 2},
     {label: 'atoms-family',kind: 2},
+    {label: 'autoarxload',kind: 2},
+    {label: 'autoload',kind: 2},
     {label: 'bhatch',kind: 2},
     {label: 'bherrs',kind: 2},
     {label: 'boole',kind: 2},
@@ -214,7 +216,6 @@ exports.obj = [
     {label: 'open',kind: 2},
     {label: 'or',kind: 2},
     {label: 'osnap',kind: 2},
-    {label: 'pi',kind: 2},
     {label: 'polar',kind: 2},
     {label: 'pragma',kind: 2},
     {label: 'prin1',kind: 2},
@@ -304,5 +305,5 @@ exports.obj = [
     {label: 'xdroom',kind: 2},
     {label: 'xdsize',kind: 2},
     {label: 'xstrcase',kind: 2},
-    {label: 'zerop',kind: 2}
+    {label: 'zerop',kind: 2},
 ];
