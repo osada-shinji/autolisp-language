@@ -11,7 +11,7 @@ const autolisp_func_vla_put = require('./compItem/autolisp-func-vla-put');
 const autolisp_func_vlax = require('./compItem/autolisp-func-vlax');
 const autolisp_func_vlisp = require('./compItem/autolisp-func-vlisp');
 const autolisp_func_vlr = require('./compItem/autolisp-func-vlr');
-const autolispMode = { scheme: 'file', language: 'autolisp' };
+const autolispMode =  ['autolisp' , 'autolispdcl'] ;
 
 class AutolispCompletionItemProvider_const {
     provideCompletionItems(document, position, token) {
@@ -125,7 +125,7 @@ function activate(context) {
             builder.replace(editor.selection, res);
         });
     });
-    context.subscriptions.push(vscode.languages.registerCompletionItemProvider(autolispMode, new AutolispCompletionItemProvider_const(), ':'));
+    context.subscriptions.push(vscode.languages.registerCompletionItemProvider(autolispMode, new AutolispCompletionItemProvider_const(), ''));
     context.subscriptions.push(vscode.languages.registerCompletionItemProvider(autolispMode, new AutolispCompletionItemProvider_enum_ac(), ''));
     context.subscriptions.push(vscode.languages.registerCompletionItemProvider(autolispMode, new AutolispCompletionItemProvider_enum_vlax_vb(), ''));
     context.subscriptions.push(vscode.languages.registerCompletionItemProvider(autolispMode, new AutolispCompletionItemProvider_func_acet(), ''));
@@ -141,5 +141,7 @@ function activate(context) {
 function deactivate() {
     return undefined;
 }
+
+
 module.exports = { activate, deactivate };
 //exports.activate = activate;
