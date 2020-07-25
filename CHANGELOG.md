@@ -8,3 +8,7 @@
 
 ## [1.2.x] 2019/05/17
 ### Unicode conversion support. 
+
+## [1.5.x] 2020/07/25
+### Dark color theme added. 
+### Improved the IntelliSense icon.
