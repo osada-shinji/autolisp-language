@@ -305,5 +305,5 @@ exports.obj = [
     {label: 'xdroom',kind: 2},
     {label: 'xdsize',kind: 2},
     {label: 'xstrcase',kind: 2},
-    {label: 'zerop',kind: 2},
+    {label: 'zerop',kind: 2}
 ];

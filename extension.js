@@ -1,17 +1,22 @@
 const vscode = require('vscode');
-const autolisp_const = require('./compItem/autolisp-const');
-const autolisp_enum_ac = require('./compItem/autolisp-enum-ac');
-const autolisp_enum_vlax_vb = require('./compItem/autolisp-enum-vlax-vb');
-const autolisp_func_acet = require('./compItem/autolisp-func-acet');
-const autolisp_func_std = require('./compItem/autolisp-func-std');
-const autolisp_func_vl = require('./compItem/autolisp-func-vl');
-const autolisp_func_vla = require('./compItem/autolisp-func-vla');
-const autolisp_func_vla_get = require('./compItem/autolisp-func-vla-get');
-const autolisp_func_vla_put = require('./compItem/autolisp-func-vla-put');
-const autolisp_func_vlax = require('./compItem/autolisp-func-vlax');
-const autolisp_func_vlisp = require('./compItem/autolisp-func-vlisp');
-const autolisp_func_vlr = require('./compItem/autolisp-func-vlr');
-const autolispMode =  ['autolisp' , 'autolispdcl'] ;
+const autolisp_const = require('./compItems/autolisp-const');
+const autolisp_enum_ac = require('./compItems/autolisp-enum-ac');
+const autolisp_enum_vlax_vb = require('./compItems/autolisp-enum-vlax-vb');
+const autolisp_func_acet = require('./compItems/autolisp-func-acet');
+const autolisp_func_std = require('./compItems/autolisp-func-std');
+const autolisp_func_vl = require('./compItems/autolisp-func-vl');
+const autolisp_func_vla = require('./compItems/autolisp-func-vla');
+const autolisp_func_vla_get = require('./compItems/autolisp-func-vla-get');
+const autolisp_func_vla_put = require('./compItems/autolisp-func-vla-put');
+const autolisp_func_vlax = require('./compItems/autolisp-func-vlax');
+const autolisp_func_vlisp = require('./compItems/autolisp-func-vlisp');
+const autolisp_func_vlr = require('./compItems/autolisp-func-vlr');
+const autolispMode =  ['autolisp'] ;
+
+const autolispdcl_attribute = require('./compItems/autolispdcl-attribute');
+const autolispdcl_keyword = require('./compItems/autolispdcl-keyword');
+const autolispdcl_tile = require('./compItems/autolispdcl-tile');
+const autolispDCLMode =  ['autolispdcl'] ;
 
 class AutolispCompletionItemProvider_const {
     provideCompletionItems(document, position, token) {
@@ -85,6 +90,25 @@ class AutolispCompletionItemProvider_func_vlr {
         return Promise.resolve(completionList);
     }
 }
+class AutolispDCLCompletionItemProvider_attribute {
+    provideCompletionItems(document, position, token) {
+        let completionList = new vscode.CompletionList(autolispdcl_attribute.obj, false);
+        return Promise.resolve(completionList);
+    }
+}
+class AutolispDCLCompletionItemProvider_keyword {
+    provideCompletionItems(document, position, token) {
+        let completionList = new vscode.CompletionList(autolispdcl_keyword.obj, false);
+        return Promise.resolve(completionList);
+    }
+}
+class AutolispDCLCompletionItemProvider_tile {
+    provideCompletionItems(document, position, token) {
+        let completionList = new vscode.CompletionList(autolispdcl_tile.obj, false);
+        return Promise.resolve(completionList);
+    }
+}
+
 function eeee(s) {
     var str = s.substr(3);
     var uuu = parseInt(str, 16);
@@ -137,6 +161,9 @@ function activate(context) {
     context.subscriptions.push(vscode.languages.registerCompletionItemProvider(autolispMode, new AutolispCompletionItemProvider_func_vlax(), ''));
     context.subscriptions.push(vscode.languages.registerCompletionItemProvider(autolispMode, new AutolispCompletionItemProvider_func_vlisp(), ''));
     context.subscriptions.push(vscode.languages.registerCompletionItemProvider(autolispMode, new AutolispCompletionItemProvider_func_vlr(), ''));
+    context.subscriptions.push(vscode.languages.registerCompletionItemProvider(autolispDCLMode, new AutolispDCLCompletionItemProvider_attribute(), ''));
+    context.subscriptions.push(vscode.languages.registerCompletionItemProvider(autolispDCLMode, new AutolispDCLCompletionItemProvider_keyword(), ''));
+    context.subscriptions.push(vscode.languages.registerCompletionItemProvider(autolispDCLMode, new AutolispDCLCompletionItemProvider_tile(), ''));
 }
 function deactivate() {
     return undefined;

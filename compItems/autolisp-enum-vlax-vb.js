@@ -49,5 +49,5 @@ exports.obj = [
     {label: 'vlax-vbWide',kind: 19,detail: "4"},
     {label: 'vlax-vbYes',kind: 19,detail: "6"},
     {label: 'vlax-vbYesNo',kind: 19,detail: "4"},
-    {label: 'vlax-vbYesNoCancel',kind: 19,detail: "3"},
+    {label: 'vlax-vbYesNoCancel',kind: 19,detail: "3"}
 ];

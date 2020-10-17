@@ -1,7 +1,7 @@
 {
 	"name": "autolisp-language",
-	"displayName": "autolisp language support",
-	"description": "autolisp language syntax highlight and function input support",
+	"displayName": "Autolisp language support",
+	"description": "Autolisp language syntax highlight and function input support",
 	"version": "1.5.1",
 	"publisher": "jpnacaduser",
 	"engines": {
@@ -14,7 +14,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/acaduser/"
+		"url": "https://github.com/osadashinji/autolisp-language"
 	},
 	"icon": "images/icon.png",
 	"license": "",

@@ -2,23 +2,60 @@
 	"name": "Autolisp dark theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1f1f1f",
-		"editor.foreground": "#d1d1d1",
-		"editor.selectionHighlightBackground": "#091fe4"
+		"editor.background": "#0f0f0f",
+		"editor.foreground": "#dfdfdf",
+		"editor.selectionHighlightBackground": "#3f3fef"
 
 	},
 	"tokenColors": [
 		{
 			"name": "autolisp",
 			"scope": [
-				"comment.autolisp",
-				"comment.block.autolisp"
+				"keyword.atom.autolisp",
+				"keyword.const.autolisp"
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#468d35"
+				"foreground": "#2fb9db"
 			}
 		},
+		{
+			"name": "autolisp",
+			"scope": [
+				"keyword.enum.ac.autolisp",
+				"keyword.enum.vlax.vb.autolisp",
+				"keyword.func.acet.autolisp",
+				"keyword.func.std.autolisp",
+				"keyword.func.vl.autolisp"
+			],
+			"settings": {
+				
+				"foreground": "#3496e7"
+			}
+		},
+		{
+			"name": "autolisp",
+			"scope": [
+				"keyword.func.vla.autolisp",
+				"keyword.func.vla.get.autolisp",
+				"keyword.func.vla.put.autolisp"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#2fb9db"
+			}
+		},
+		{
+			"name": "autolisp",
+			"scope": [
+				"keyword.func.vlax.autolisp",
+				"keyword.func.vlisp.autolisp",
+				"keyword.func.vlr.autolisp"
+			],
+			"settings": {
+				"foreground": "#3496e7"
+			}
+		},	
 		{
 			"name": "autolisp",
 			"scope": "operator.autolisp",
@@ -29,37 +66,39 @@
 		{
 			"name": "autolisp",
 			"scope": [
-				"keyword.autolisp",
-				
+				"comment.autolisp",
+				"comment.block.autolisp"
 			],
 			"settings": {
-				"foreground": "#4996dd"
+				"fontStyle": "bold",
+				"foreground": "#5faf5f"
 			}
 		},
-		
 		{
 			"name": "autolisp",
 			"scope": [
-				"numeric.autolisp",
-								
+				"numeric.autolisp"
 			],
 			"settings": {
-				"foreground": "#db9b48"
+				"foreground": "#dbad48"
 			}
 		},
 		{
 			"name": "autolisp",
 			"scope": "string.autolisp",
 			"settings": {
-				"foreground": "#ce4eca"
+				"foreground": "#d63ed1"
 			}
-		},{
+		},
+		{
 			"name": "autolisp",
 			"scope": "string.escape.autolisp",
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#bd3986"
 			}
-		},{
+		},
+		{
 			"name": "autolisp",
 			"scope": [
 				"symbol.autolisp"
@@ -67,41 +106,50 @@
 			"settings":{
 				"fontStyle": "bold",
 				"foreground": "#cc7d3d"
-				
 			}
-		},{
+		},
+		{
 			"name": "autolisp",
 			"scope": [
 				"quote.autolisp"
 			],
 			"settings":{
-				
-				"foreground": "#cc4646"
-				
+				"fontStyle": "bold",
+				"foreground": "#e24a4a"
 			}
 		},
 		{
 			"name": "autolispdcl",
 			"scope": "operator.autolispdcl",
 			"settings": {
-				"foreground": "#d64343"
+				"foreground": "#e24a4a"
+			}
+		},
+		{
+			"name": "autolispdcl",
+			"scope": [
+				"comment.autolispdcl",
+				"comment.block.autolispdcl"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#5faf5f"
 			}
 		},
 		{
 			"name": "autolispdcl",
 			"scope": "string.autolispdcl",
 			"settings": {
-				"foreground": "#c246d3"
+				"foreground": "#d63ed1"
 			}
 		},
 		{
 			"name": "autolispdcl",
 			"scope": [
 				"keyword.autolispdcl",
-				
 			],
 			"settings": {
-				"foreground": "#4693db"
+				"foreground": "#4f9fdf"
 			}
 		},
 		{
@@ -111,19 +159,16 @@
 								
 			],
 			"settings": {
-				"foreground": "#d1a044"
+				"foreground": "#efaf00"
 			}
 		},
-		
 		{
 			"name": "autolispdcl",
 			"scope": [
 				"colon.autolispdcl"
 			],
 			"settings":{
-				
-				"foreground": "#db3d3d"
-				
+				"foreground": "#e24a4a"
 			}
 		},
 		{
@@ -132,21 +177,7 @@
 				"semicolon.autolispdcl"
 			],
 			"settings":{
-				
-				"foreground": "#cf3f3f"
-				
-			}
-		},
-
-		{
-			"name": "Comment",
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#317092"
+				"foreground": "#e24a4a"
 			}
 		},
 
@@ -163,8 +194,7 @@
 
 
 
-
-
+		
 		{
 			"name": "Comment",
 			"scope": [

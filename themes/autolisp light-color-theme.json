@@ -10,6 +10,53 @@
 		{
 			"name": "autolisp",
 			"scope": [
+				"keyword.atom.autolisp",
+				"keyword.const.autolisp"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "autolisp",
+			"scope": [
+				"keyword.enum.ac.autolisp",
+				"keyword.enum.vlax.vb.autolisp",
+				"keyword.func.acet.autolisp",
+				"keyword.func.std.autolisp",
+				"keyword.func.vl.autolisp"
+			],
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "autolisp",
+			"scope": [
+				"keyword.func.vla.autolisp",
+				"keyword.func.vla.get.autolisp",
+				"keyword.func.vla.put.autolisp"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "autolisp",
+			"scope": [
+				"keyword.func.vlax.autolisp",
+				"keyword.func.vlisp.autolisp",
+				"keyword.func.vlr.autolisp"
+			],
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},	
+		{
+			"name": "autolisp",
+			"scope": [
 				"comment.autolisp",
 				"comment.block.autolisp"
 			],
@@ -22,28 +69,25 @@
 			"name": "autolisp",
 			"scope": "operator.autolisp",
 			"settings": {
-				"foreground": "#ff1100"
+				"foreground": "#ff0000"
 			}
 		},
 		{
 			"name": "autolisp",
 			"scope": [
 				"keyword.autolisp",
-				
 			],
 			"settings": {
-				"foreground": "#003cff"
+				"foreground": "#0000ff"
 			}
 		},
-		
 		{
 			"name": "autolisp",
 			"scope": [
 				"numeric.autolisp",
-								
 			],
 			"settings": {
-				"foreground": "#b87905"
+				"foreground": "#bd7b00"
 			}
 		},
 		{
@@ -52,40 +96,49 @@
 			"settings": {
 				"foreground": "#ff00ff"
 			}
-		},{
+		},
+		{
 			"name": "autolisp",
 			"scope": "string.escape.autolisp",
 			"settings": {
-				"foreground": "#f38e0a"
+				"foreground": "#c97405"
 			}
-		},{
+		},
+		{
 			"name": "autolisp",
 			"scope": [
 				"symbol.autolisp"
 			],
 			"settings":{
 				"fontStyle": "bold",
-				"foreground": "#968707"
-				
+				"foreground": "#9c8000"
 			}
-		},{
+		},
+		{
 			"name": "autolisp",
 			"scope": [
 				"quote.autolisp"
 			],
 			"settings":{
-				
-				"foreground": "#ee1606"
-				
+				"foreground": "#ff0000"
 			}
 		},
-
-
 		{
 			"name": "autolispdcl",
 			"scope": "operator.autolispdcl",
 			"settings": {
-				"foreground": "#ff1100"
+				"foreground": "#ff0000"
+			}
+		},
+		{
+			"name": "autolispdcl",
+			"scope": [
+				"comment.autolispdcl",
+				"comment.block.autolispdcl"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#3b8531"
 			}
 		},
 		{
@@ -99,10 +152,9 @@
 			"name": "autolispdcl",
 			"scope": [
 				"keyword.autolispdcl",
-				
 			],
 			"settings": {
-				"foreground": "#003cff"
+				"foreground": "#0000ff"
 			}
 		},
 		{
@@ -115,16 +167,13 @@
 				"foreground": "#b87905"
 			}
 		},
-		
 		{
 			"name": "autolispdcl",
 			"scope": [
 				"colon.autolispdcl"
 			],
 			"settings":{
-				
-				"foreground": "#01800c"
-				
+				"foreground": "#ff0000"
 			}
 		},
 		{
@@ -133,9 +182,7 @@
 				"semicolon.autolispdcl"
 			],
 			"settings":{
-				
-				"foreground": "#03741b"
-				
+				"foreground": "#ff0000"
 			}
 		},
 		

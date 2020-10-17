@@ -897,5 +897,5 @@ exports.obj = [
     {label: 'acZero',kind: 19,detail: "1"},
     {label: 'acZoomScaledAbsolute',kind: 19,detail: "0"},
     {label: 'acZoomScaledRelative',kind: 19,detail: "1"},
-    {label: 'acZoomScaledRelativePSpace',kind: 19,detail: "2"},
+    {label: 'acZoomScaledRelativePSpace',kind: 19,detail: "2"}
 ];
