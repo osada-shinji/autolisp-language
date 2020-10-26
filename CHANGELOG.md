@@ -1,5 +1,10 @@
 # Change Log
 
+## [2.0.x] 2020/10/31
+### Languages Alias and ID changed.
+### 1. Autolisp' "autolisp-prime"
+### 2. AutolispDCL' "autolispdcl-prime".
+
 ## [1.5.x] 2020/07/25
 ### Dark color theme added. 
 ### Improved the IntelliSense icon.

@@ -33,10 +33,10 @@
 	"contributes": {
 		"languages": [
 			{
-				"id": "autolisp",
+				"id": "autolisp-prime",
 				"aliases": [
-					"Autolisp",
-					"autolisp"
+					"Autolisp'",
+					"autolisp'"
 				],
 				"extensions": [
 					".lsp",
@@ -45,10 +45,10 @@
 				"configuration": "./language-configuration.json"
 			},
 			{
-				"id": "autolispdcl",
+				"id": "autolispdcl-prime",
 				"aliases": [
-					"AutolispDCL",
-					"autolispdcl"
+					"AutolispDCL'",
+					"autolispdcl'"
 				],
 				"extensions": [
 					".dcl"
@@ -58,36 +58,36 @@
 		],
 		"grammars": [
 			{
-				"language": "autolisp",
-				"scopeName": "source.autolisp",
-				"path": "./syntaxes/autolisp.tmLanguage.json"
+				"language": "autolisp-prime",
+				"scopeName": "source.autolisp-prime",
+				"path": "./syntaxes/autolisp-prime.tmLanguage.json"
 			},
 			{
-				"language": "autolispdcl",
-				"scopeName": "source.autolispdcl",
-				"path": "./syntaxes/autolispdcl.tmLanguage.json"
+				"language": "autolispdcl-prime",
+				"scopeName": "source.autolispdcl-prime",
+				"path": "./syntaxes/autolispdcl-prime.tmLanguage.json"
 			}
 		],
 		"configurationDefaults": {
-			"[autolisp]": {
+			"[autolisp-prime]": {
 				"editor.acceptSuggestionOnEnter": "off",
-				"editor.wordWrap": "on",
-				"editor.wordBasedSuggestions": false,
-				"editor.quickSuggestions": true,
+				"editor.autoClosingBrackets": "never",
 				"editor.insertSpaces": false,
+				"editor.quickSuggestions": true,
 				"editor.tabSize": 4,
-				"files.encoding": "utf8",
-				"editor.autoClosingBrackets": "never"
+				"editor.wordBasedSuggestions": false,
+				"editor.wordWrap": "on",
+				"files.encoding": "utf8"
 			},
-			"[autolispdcl]": {
+			"[autolispdcl-prime]": {
 				"editor.acceptSuggestionOnEnter": "off",
-				"editor.wordWrap": "on",
-				"editor.wordBasedSuggestions": false,
-				"editor.quickSuggestions": true,
+				"editor.autoClosingBrackets": "languageDefined",
 				"editor.insertSpaces": false,
+				"editor.quickSuggestions": true,
 				"editor.tabSize": 4,
-				"files.encoding": "utf8",
-				"editor.autoClosingBrackets": "languageDefined"
+				"editor.wordBasedSuggestions": false,
+				"editor.wordWrap": "on",
+				"files.encoding": "utf8"
 			}
 		},
 		"themes": [
@@ -104,19 +104,19 @@
 		],
 		"snippets": [
 			{
-				"language": "autolispdcl",
+				"language": "autolispdcl-prime",
 				"path": "./snippets/snippets-dcl.json"
 			},
 			{
-				"language": "autolisp",
+				"language": "autolisp-prime",
 				"path": "./snippets/snippets-lsp-support.json"
 			},
 			{
-				"language": "autolisp",
+				"language": "autolisp-prime",
 				"path": "./snippets/snippets-lsp-symbol.json"
 			},
 			{
-				"language": "autolisp",
+				"language": "autolisp-prime",
 				"path": "./snippets/snippets-lsp-sysvar.json"
 			}
 		],

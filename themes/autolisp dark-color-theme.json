@@ -2,72 +2,63 @@
 	"name": "Autolisp dark theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#0f0f0f",
+		"editor.background": "#171717",
 		"editor.foreground": "#dfdfdf",
 		"editor.selectionHighlightBackground": "#3f3fef"
 
 	},
 	"tokenColors": [
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"keyword.atom.autolisp",
-				"keyword.const.autolisp"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#2fb9db"
-			}
-		},
-		{
-			"name": "autolisp",
-			"scope": [
-				"keyword.enum.ac.autolisp",
-				"keyword.enum.vlax.vb.autolisp",
-				"keyword.func.acet.autolisp",
-				"keyword.func.std.autolisp",
-				"keyword.func.vl.autolisp"
+				"keyword.atom.autolisp-prime",
+				"keyword.const.autolisp-prime",
+				"keyword.enum.ac.autolisp-prime",
+				"keyword.enum.vlax.vb.autolisp-prime",
+				"keyword.func.acet.autolisp-prime",
+				"keyword.func.std.autolisp-prime",
+				"keyword.func.vl.autolisp-prime"
 			],
 			"settings": {
 				
-				"foreground": "#3496e7"
+				"foreground": "#3794e0"
 			}
 		},
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"keyword.func.vla.autolisp",
-				"keyword.func.vla.get.autolisp",
-				"keyword.func.vla.put.autolisp"
+				"keyword.func.vla.autolisp-prime",
+				"keyword.func.vla.get.autolisp-prime",
+				"keyword.func.vla.put.autolisp-prime"
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#2fb9db"
+				"foreground": "#34badb"
 			}
 		},
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"keyword.func.vlax.autolisp",
-				"keyword.func.vlisp.autolisp",
-				"keyword.func.vlr.autolisp"
+				"keyword.func.vlax.autolisp-prime",
+				"keyword.func.vlisp.autolisp-prime",
+				"keyword.func.vlr.autolisp-prime"
 			],
 			"settings": {
-				"foreground": "#3496e7"
+				"foreground": "#3794e0"
 			}
 		},	
 		{
-			"name": "autolisp",
-			"scope": "operator.autolisp",
+			"name": "autolisp-prime",
+			"scope": "operator.autolisp-prime",
 			"settings": {
-				"foreground": "#e24a4a"
+				"foreground": "#d84545"
 			}
 		},
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"comment.autolisp",
-				"comment.block.autolisp"
+				"comment.autolisp-prime",
+				"comment.block.autolisp-prime"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -75,61 +66,61 @@
 			}
 		},
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"numeric.autolisp"
+				"numeric.autolisp-prime"
 			],
 			"settings": {
-				"foreground": "#dbad48"
+				"foreground": "#c99e42"
 			}
 		},
 		{
-			"name": "autolisp",
-			"scope": "string.autolisp",
+			"name": "autolisp-prime",
+			"scope": "string.autolisp-prime",
 			"settings": {
 				"foreground": "#d63ed1"
 			}
 		},
 		{
-			"name": "autolisp",
-			"scope": "string.escape.autolisp",
+			"name": "autolisp-prime",
+			"scope": "string.escape.autolisp-prime",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#bd3986"
 			}
 		},
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"symbol.autolisp"
+				"symbol.autolisp-prime"
 			],
 			"settings":{
 				"fontStyle": "bold",
-				"foreground": "#cc7d3d"
+				"foreground": "#c77a3c"
 			}
 		},
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"quote.autolisp"
+				"quote.autolisp-prime"
 			],
 			"settings":{
 				"fontStyle": "bold",
-				"foreground": "#e24a4a"
+				"foreground": "#cf4343"
 			}
 		},
 		{
-			"name": "autolispdcl",
-			"scope": "operator.autolispdcl",
+			"name": "autolispdcl-prime",
+			"scope": "operator.autolispdcl-prime",
 			"settings": {
-				"foreground": "#e24a4a"
+				"foreground": "#d64646"
 			}
 		},
 		{
-			"name": "autolispdcl",
+			"name": "autolispdcl-prime",
 			"scope": [
-				"comment.autolispdcl",
-				"comment.block.autolispdcl"
+				"comment.autolispdcl-prime",
+				"comment.block.autolispdcl-prime"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -137,68 +128,103 @@
 			}
 		},
 		{
-			"name": "autolispdcl",
-			"scope": "string.autolispdcl",
+			"name": "autolispdcl-prime",
+			"scope": "string.autolispdcl-prime",
 			"settings": {
 				"foreground": "#d63ed1"
 			}
 		},
 		{
-			"name": "autolispdcl",
+			"name": "autolispdcl-prime",
 			"scope": [
-				"keyword.autolispdcl",
+				"keyword.autolispdcl-prime",
 			],
 			"settings": {
 				"foreground": "#4f9fdf"
 			}
 		},
 		{
-			"name": "autolispdcl",
+			"name": "autolispdcl-prime",
 			"scope": [
-				"numeric.autolispdcl",
+				"numeric.autolispdcl-prime",
 								
 			],
 			"settings": {
-				"foreground": "#efaf00"
+				"foreground": "#c99e42"
 			}
 		},
 		{
-			"name": "autolispdcl",
+			"name": "autolispdcl-prime",
 			"scope": [
-				"colon.autolispdcl"
+				"colon.autolispdcl-prime"
 			],
 			"settings":{
-				"foreground": "#e24a4a"
+				"foreground": "#d64444"
 			}
 		},
 		{
-			"name": "autolispdcl",
+			"name": "autolispdcl-prime",
 			"scope": [
-				"semicolon.autolispdcl"
+				"semicolon.autolispdcl-prime"
 			],
 			"settings":{
-				"foreground": "#e24a4a"
+				"foreground": "#d64444"
 			}
 		},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
+		//For AutoCAD AutoLISP Extension
+		{
+			"name": "comment",
+			"scope": [
+				"comment.line",
+				"comment.block"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#5faf5f"
+			}
+		},
+		{
+			"name": "symbol",
+			"scope": [
+				"symbol.autolisp",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#c77a3c"
+			}
+		},
+		{
+			"name": "numeric",
+			"scope": [
+				"constant.numeric",
+			],
+			"settings": {
+				"foreground": "#c99e42"
+			}
+		},
+		{
+			"name": "string",
+			"scope": [
+				"string.quoted",
+			],
+			"settings": {
+				"foreground": "#d63ed1"
+			}
+		},
+		{
+			"name": "keywords",
+			"scope": [
+				"keyword",
+			],
+			"settings": {
+				"foreground": "#3794e0"
+			}
+		},
+		//Other		
 		{
 			"name": "Comment",
 			"scope": [
-				"comment",
+				//"comment",
 				"punctuation.definition.comment"
 			],
 			"settings": {
@@ -238,7 +264,7 @@
 		{
 			"name": "Keyword, Storage",
 			"scope": [
-				"keyword",
+				//"keyword",
 				"storage.type",
 				"storage.modifier"
 			],
@@ -814,12 +840,3 @@
 		}
 	]
 }
-		
-
-
-
-
-
-
-
-

@@ -8,10 +8,26 @@
 	},
 	"tokenColors": [
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"keyword.atom.autolisp",
-				"keyword.const.autolisp"
+				"keyword.atom.autolisp-prime",
+				"keyword.const.autolisp-prime",
+				"keyword.enum.ac.autolisp-prime",
+				"keyword.enum.vlax.vb.autolisp-prime",
+				"keyword.func.acet.autolisp-prime",
+				"keyword.func.std.autolisp-prime",
+				"keyword.func.vl.autolisp-prime"
+			],
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "autolisp-prime",
+			"scope": [
+				"keyword.func.vla.autolisp-prime",
+				"keyword.func.vla.get.autolisp-prime",
+				"keyword.func.vla.put.autolisp-prime"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -19,46 +35,22 @@
 			}
 		},
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"keyword.enum.ac.autolisp",
-				"keyword.enum.vlax.vb.autolisp",
-				"keyword.func.acet.autolisp",
-				"keyword.func.std.autolisp",
-				"keyword.func.vl.autolisp"
-			],
-			"settings": {
-				"foreground": "#0000ff"
-			}
-		},
-		{
-			"name": "autolisp",
-			"scope": [
-				"keyword.func.vla.autolisp",
-				"keyword.func.vla.get.autolisp",
-				"keyword.func.vla.put.autolisp"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#0000ff"
-			}
-		},
-		{
-			"name": "autolisp",
-			"scope": [
-				"keyword.func.vlax.autolisp",
-				"keyword.func.vlisp.autolisp",
-				"keyword.func.vlr.autolisp"
+				"keyword.func.vlax.autolisp-prime",
+				"keyword.func.vlisp.autolisp-prime",
+				"keyword.func.vlr.autolisp-prime"
 			],
 			"settings": {
 				"foreground": "#0000ff"
 			}
 		},	
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"comment.autolisp",
-				"comment.block.autolisp"
+
+				"comment.autolisp-prime",
+				"comment.block.autolisp-prime"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -66,48 +58,51 @@
 			}
 		},
 		{
-			"name": "autolisp",
-			"scope": "operator.autolisp",
+			"name": "autolisp-prime",
+			"scope": "operator.autolisp-prime",
 			"settings": {
 				"foreground": "#ff0000"
 			}
 		},
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"keyword.autolisp",
+				"keyword.autolisp-prime",
 			],
 			"settings": {
 				"foreground": "#0000ff"
 			}
 		},
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"numeric.autolisp",
+				"numeric.autolisp-prime",
 			],
 			"settings": {
 				"foreground": "#bd7b00"
 			}
 		},
 		{
-			"name": "autolisp",
-			"scope": "string.autolisp",
+			"name": "autolisp-prime",
+			"scope": [
+				"string.autolisp-prime",
+			],
+
 			"settings": {
 				"foreground": "#ff00ff"
 			}
 		},
 		{
-			"name": "autolisp",
-			"scope": "string.escape.autolisp",
+			"name": "autolisp-prime",
+			"scope": "string.escape.autolisp-prime",
 			"settings": {
 				"foreground": "#c97405"
 			}
 		},
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"symbol.autolisp"
+				"symbol.autolisp-prime"
 			],
 			"settings":{
 				"fontStyle": "bold",
@@ -115,26 +110,26 @@
 			}
 		},
 		{
-			"name": "autolisp",
+			"name": "autolisp-prime",
 			"scope": [
-				"quote.autolisp"
+				"quote.autolisp-prime"
 			],
 			"settings":{
 				"foreground": "#ff0000"
 			}
 		},
 		{
-			"name": "autolispdcl",
-			"scope": "operator.autolispdcl",
+			"name": "autolispdcl-prime",
+			"scope": "operator.autolispdcl-prime",
 			"settings": {
 				"foreground": "#ff0000"
 			}
 		},
 		{
-			"name": "autolispdcl",
+			"name": "autolispdcl-prime",
 			"scope": [
-				"comment.autolispdcl",
-				"comment.block.autolispdcl"
+				"comment.autolispdcl-prime",
+				"comment.block.autolispdcl-prime"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -142,25 +137,25 @@
 			}
 		},
 		{
-			"name": "autolispdcl",
-			"scope": "string.autolispdcl",
+			"name": "autolispdcl-prime",
+			"scope": "string.autolispdcl-prime",
 			"settings": {
 				"foreground": "#ff00ff"
 			}
 		},
 		{
-			"name": "autolispdcl",
+			"name": "autolispdcl-prime",
 			"scope": [
-				"keyword.autolispdcl",
+				"keyword.autolispdcl-prime",
 			],
 			"settings": {
 				"foreground": "#0000ff"
 			}
 		},
 		{
-			"name": "autolispdcl",
+			"name": "autolispdcl-prime",
 			"scope": [
-				"numeric.autolispdcl",
+				"numeric.autolispdcl-prime",
 								
 			],
 			"settings": {
@@ -168,18 +163,18 @@
 			}
 		},
 		{
-			"name": "autolispdcl",
+			"name": "autolispdcl-prime",
 			"scope": [
-				"colon.autolispdcl"
+				"colon.autolispdcl-prime"
 			],
 			"settings":{
 				"foreground": "#ff0000"
 			}
 		},
 		{
-			"name": "autolispdcl",
+			"name": "autolispdcl-prime",
 			"scope": [
-				"semicolon.autolispdcl"
+				"semicolon.autolispdcl-prime"
 			],
 			"settings":{
 				"foreground": "#ff0000"
@@ -187,18 +182,57 @@
 		},
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-			
-		
-		
-		
+
+//For AutoCAD AutoLISP Extension
+		{
+			"name": "comment",
+			"scope": [
+				"comment.line",
+				"comment.block"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#3b8531"
+			}
+		},
+		{
+			"name": "symbol",
+			"scope": [
+				"symbol.autolisp",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#9c8000"
+			}
+		},
+		{
+			"name": "numeric",
+			"scope": [
+				"constant.numeric",
+			],
+			"settings": {
+				"foreground": "#bd7b00"
+			}
+		},
+		{
+			"name": "string",
+			"scope": [
+				"string.quoted",
+			],
+			"settings": {
+				"foreground": "#ff00ff"
+			}
+		},
+		{
+			"name": "keywords",
+			"scope": [
+				"keyword",
+			],
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
+		//Other		
 		{
 			"name": "Comments",
 			"scope": [
@@ -244,20 +278,20 @@
 			}
 		},
 		{
+			"name": "Keywords",
+			"scope": [
+				//"keyword",
+				"storage"
+			],
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
+		{
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#777777"
-			}
-		},
-		{
-			"name": "Keywords",
-			"scope": [
-				"keyword",
-				"storage"
-			],
-			"settings": {
-				"foreground": "#4B83CD"
 			}
 		},
 		{
@@ -343,7 +377,7 @@
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#ff00ff"
 			}
 		},
 		{
@@ -622,6 +656,4 @@
 			}
 		}
 	]
-
-
 }

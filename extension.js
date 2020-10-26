@@ -11,12 +11,12 @@ const autolisp_func_vla_put = require('./compItems/autolisp-func-vla-put');
 const autolisp_func_vlax = require('./compItems/autolisp-func-vlax');
 const autolisp_func_vlisp = require('./compItems/autolisp-func-vlisp');
 const autolisp_func_vlr = require('./compItems/autolisp-func-vlr');
-const autolispMode =  ['autolisp'] ;
+const autolispMode =  ['autolisp-prime'] ;
 
 const autolispdcl_attribute = require('./compItems/autolispdcl-attribute');
 const autolispdcl_keyword = require('./compItems/autolispdcl-keyword');
 const autolispdcl_tile = require('./compItems/autolispdcl-tile');
-const autolispDCLMode =  ['autolispdcl'] ;
+const autolispDCLMode =  ['autolispdcl-prime'] ;
 
 class AutolispCompletionItemProvider_const {
     provideCompletionItems(document, position, token) {

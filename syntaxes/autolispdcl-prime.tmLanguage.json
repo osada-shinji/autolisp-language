@@ -1,6 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "AutolispDCL",
+	"scopeName": "source.autolispdcl-prime",
 	"patterns": [
 		{
 			"include": "#Symbols"
@@ -25,19 +26,19 @@
 		"keywords": {
 			"patterns": [
 				{
-					"name": "operator.autolispdcl",
+					"name": "operator.autolispdcl-prime",
 					"match": "(\\{|\\})"
 				},{
-					"name": "keyword.autolispdcl",
+					"name": "keyword.autolispdcl-prime",
 					"match": "(?<=\\s|:)(action|alignment|allow_accept|aspect_ratio|big_increment|children_alignment|children_fixed_height|children_fixed_width|color|edit_limit|edit_width|fixed_height|fixed_width|fixed_width_font|height|initial_focus|is_bold|is_cancel|is_default|is_enabled|is_tab_stop|key|label|layout|list|max_value|min_value|mnemonic|multiple_select|password_char|small_increment|tabs|tab_truncate|value|width)(?=\\s|;)"
 				},
 				{
-					"name": "keyword.autolispdcl",
+					"name": "keyword.autolispdcl-prime",
 					"match": "(?<=\\s|:)(boxed_column|boxed_radio_column|boxed_radio_row|boxed_row|button|column|column|concatenation|dialog|edit_box|errtile|image|image_button|list_box|ok_cancel|ok_cancel_help|ok_cancel_help_errtile|ok_cancel_help_info|ok_only|paragraph|popup_list|radio_button|radio_column|radio_row|row|slider|spacer|spacer_0|spacer_1|text|toggle)(?=\\s|;)"
 				}
 				,
 				{
-					"name": "keyword.autolispdcl",
+					"name": "keyword.autolispdcl-prime",
 					"match": "(?<=\\s)(true|false|left|right|centered|top|bottom|dialog_line|dialog_foreground|dialog_background|graphics_background|black|red|yellow|green|cyan|blue|magenta|white|graphics_foreground|horizontal|vertical)(?=\\s|;)"
 				}
 				
@@ -45,12 +46,12 @@
 		},
 		"strings": 
 		{
-			"name": "string.autolispdcl",
+			"name": "string.autolispdcl-prime",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "string.escape.autolispdcl",
+					"name": "string.escape.autolispdcl-prime",
 					"match": "\\\\."
 				}
 			]
@@ -59,14 +60,14 @@
 		{
 			"patterns": [
 				{
-					"name": "comment.autolispdcl",
+					"name": "comment.autolispdcl-prime",
 					"match": "//.*$"
 				}
 			]
 		},
 		"CommentBlock": 
 		{
-			"name": "comment.block.autolispdcl",
+			"name": "comment.block.autolispdcl-prime",
 			"begin": "/\\*",
 			"end": "\\*/",
 			"patterns": []
@@ -75,7 +76,7 @@
 		{
 			"patterns": [
 				{
-					"name": "numeric.autolispdcl",
+					"name": "numeric.autolispdcl-prime",
 					"match": "(?<=\\(|\\s|^)([0-9,\\.]+|-[0-9,\\.]+)(?=\\s|;)"
 				}
 			]
@@ -83,14 +84,13 @@
 		"Symbols": {
 			"patterns": [
 				{
-					"name": "colon.autolispdcl",
+					"name": "colon.autolispdcl-prime",
 					"match": ":"
 				},{
-					"name": "semicolon.autolispdcl",
+					"name": "semicolon.autolispdcl-prime",
 					"match": ";"
 				}
 			]
 		}
-	},
-	"scopeName": "source.autolispdcl"
+	}
 }
