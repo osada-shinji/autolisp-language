@@ -1,7 +1,7 @@
 {
 	"name": "autolisp-language",
-	"displayName": "Autolisp language support",
-	"description": "Autolisp language syntax highlight and function input support",
+	"displayName": "Autolisp' language support",
+	"description": "Autolisp' language syntax highlight and function input support.",
 	"version": "2.0.0",
 	"publisher": "jpnacaduser",
 	"engines": {
@@ -14,7 +14,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/osadashinji/autolisp-language"
+		"url": "https://github.com/osada-shinji/autolisp-language"
 	},
 	"icon": "images/icon.png",
 	"license": "",
@@ -92,12 +92,12 @@
 		},
 		"themes": [
 			{
-				"label": "Autolisp light theme",
+				"label": "Autolisp' light theme",
 				"uiTheme": "vs",
 				"path": "./themes/autolisp light-color-theme.json"
 			},
 			{
-				"label": "Autolisp dark theme",
+				"label": "Autolisp' dark theme",
 				"uiTheme": "vs-dark",
 				"path": "./themes/autolisp dark-color-theme.json"
 			}
