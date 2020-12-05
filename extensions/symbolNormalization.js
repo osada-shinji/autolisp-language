@@ -44,7 +44,8 @@ exports.RegistSymbolNormalization = function () {
 				break;
 			}
 		}
-		text = text.replace("\\\"" , escDoubleQuote);
+		var regexp = new RegExp("\\\\\"","g");
+		text = text.replace(regexp , escDoubleQuote);
 		while (true)
 		{
 			var posDoubleQuote = text.indexOf("\"");
@@ -125,16 +126,16 @@ exports.RegistSymbolNormalization = function () {
 				}
 			}
 		}
-		tmpStr = tmpStr.replace(escDoubleQuote , "\\\"");
-		
+
+		var regexp = new RegExp(escDoubleQuote,"g"); 
+		tmpStr = tmpStr.replace(regexp , "\\\"");
 
 		let startPos = new vscode.Position(0,0);
 		let endPos = new vscode.Position(0,0);
-		editor.selection = new vscode.Selection(startPos,endPos);
 
+		editor.selection = new vscode.Selection(startPos,endPos);
 		if (textOrg.toLowerCase() == tmpStr.toLowerCase())
 		{
-			
 			res = tmpStr;
 			editor.edit((builder) => {
 				builder.replace(new vscode.Range(0, 0, editor.document.lineCount  + 1, 0) , res);
@@ -144,10 +145,9 @@ exports.RegistSymbolNormalization = function () {
 		}
 		else
 		{
-			vscode.windows.showInformationMessage("Symbol nomalizasion failed.");
+			vscode.window.showErrorMessage("Symbol nomalizasion failed.");
 			console.log("Symbol nomalizasion failed.");
 		}
-		
 	});
 }
 function chCase (text) {
