@@ -2,7 +2,7 @@
 	"name": "autolisp-language",
 	"displayName": "Autolisp' language support",
 	"description": "Autolisp' language syntax highlight and function input support.",
-	"version": "2.1.0",
+	"version": "2.2.0",
 	"publisher": "jpnacaduser",
 	"engines": {
 		"vscode": "^1.25.0"
@@ -122,7 +122,6 @@
 			}
 		],
 		"commands": [
-			
 			{
 				"command": "extension.utf8->codePoint",
 				"title": "Convert UTF-8 to Unicode."
@@ -153,7 +152,6 @@
 					"command": "extension.SymbolNormalization",
 					"group": "autolispsup@12"
 				},
-				
 				{
 					"when": "editorLangId == autolispdcl-prime && editorHasSelection",
 					"command": "extension.utf8->codePoint",
