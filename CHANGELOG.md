@@ -1,4 +1,7 @@
 # Change Log
+## [2.2.x] 2020/12/05
+### Added symbol normalization extension.
+### Improved syntax highlighting.
 
 ## [2.0.x] 2020/10/31
 ### Languages Alias and ID changed.

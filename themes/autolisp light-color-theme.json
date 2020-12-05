@@ -155,7 +155,7 @@
 		{
 			"name": "autolispdcl-prime",
 			"scope": [
-				"numeric.autolispdcl-prime",
+				"constant.numeric.autolispdcl-prime",
 								
 			],
 			"settings": {
@@ -365,7 +365,7 @@
 		{
 			"name": "Numbers, Characters",
 			"scope": [
-				"constant.numeric",
+				//"constant.numeric",
 				"constant.character",
 				"constant"
 			],

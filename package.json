@@ -27,6 +27,7 @@
 	"activationEvents": [
 		"onCommand:extension.utf8->codePoint",
 		"onCommand:extension.codePoint->utf8",
+		"onCommand:extension.SymbolNormalization",
 		"*"
 	],
 	"main": "./extension.js",
@@ -121,26 +122,47 @@
 			}
 		],
 		"commands": [
+			
 			{
 				"command": "extension.utf8->codePoint",
-				"title": "utf8->codePoint"
+				"title": "Convert UTF-8 to Unicode."
 			},
 			{
 				"command": "extension.codePoint->utf8",
-				"title": "codePoint->utf8"
+				"title": "Convert Unicode to UTF-8."
+			},
+			{
+				"command": "extension.SymbolNormalization",
+				"title": "Symbol normalization."
 			}
 		],
 		"menus": {
 			"editor/context": [
 				{
-					"when": "editorHasSelection",
+					"when": "editorLangId == autolisp-prime && editorHasSelection",
 					"command": "extension.utf8->codePoint",
-					"group": "autolispsup@1"
+					"group": "autolispsup@10"
 				},
 				{
-					"when": "editorHasSelection",
+					"when": "editorLangId == autolisp-prime && editorHasSelection",
 					"command": "extension.codePoint->utf8",
-					"group": "autolispsup@2"
+					"group": "autolispsup@11"
+				},
+				{
+					"when": "editorLangId == autolisp-prime",
+					"command": "extension.SymbolNormalization",
+					"group": "autolispsup@12"
+				},
+				
+				{
+					"when": "editorLangId == autolispdcl-prime && editorHasSelection",
+					"command": "extension.utf8->codePoint",
+					"group": "autolispsup@20"
+				},
+				{
+					"when": "editorLangId == autolispdcl-prime && editorHasSelection",
+					"command": "extension.codePoint->utf8",
+					"group": "autolispsup@21"
 				}
 			]
 		}

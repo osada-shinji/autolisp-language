@@ -1,6 +1,6 @@
 # Autolisp' language support README
 ## Enjoy autolisp' language scripting
-### This extension is a general-purpose coding environment for AutoCAD's Autolisp language. It can also be used as a LISP development environment for compatible CAD.
+This extension is a general-purpose coding environment for AutoCAD's AutoLISP language. It can also be used as a LISP development environment for compatible CAD.
 
 * With extension "lsp" "mnl".
 * Syntax highlight.

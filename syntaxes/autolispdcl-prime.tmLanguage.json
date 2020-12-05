@@ -76,7 +76,7 @@
 		{
 			"patterns": [
 				{
-					"name": "numeric.autolispdcl-prime",
+					"name": "constant.numeric.autolispdcl-prime",
 					"match": "(?<=\\(|\\s|^)([0-9,\\.]+|-[0-9,\\.]+)(?=\\s|;)"
 				}
 			]

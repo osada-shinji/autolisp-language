@@ -146,7 +146,7 @@
 		{
 			"name": "autolispdcl-prime",
 			"scope": [
-				"numeric.autolispdcl-prime",
+				"constant.numeric.autolispdcl-prime",
 								
 			],
 			"settings": {
@@ -338,7 +338,7 @@
 		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				"constant.numeric",
+				//"constant.numeric",
 				"constant.language",
 				"support.constant",
 				"constant.character",
