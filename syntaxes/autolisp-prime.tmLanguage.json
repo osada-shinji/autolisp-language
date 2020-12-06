@@ -4,25 +4,25 @@
 	"scopeName": "source.autolisp-prime",
 	"patterns": [
 		{
-			"include": "#keywords"
+			"include": "#operator"
 		},
 		{
-			"include": "#operator"
+			"include": "#Symbols"
+		},
+		{
+			"include": "#keywords"
 		},
 		{
 			"include": "#strings"
 		},
 		{
-			"include": "#Comment"
+			"include": "#Numerics"
 		},
 		{
 			"include": "#CommentBlock"
 		},
 		{
-			"include": "#Numerics"
-		},
-		{
-			"include": "#Symbols"
+			"include": "#Comment"
 		}
 	],
 	"repository": {
