@@ -2,7 +2,7 @@
 	"name": "Autolisp dark theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#171717",
+		"editor.background": "#070707",
 		"editor.foreground": "#dfdfdf",
 		"editor.selectionHighlightBackground": "#3f3fef"
 
@@ -47,6 +47,18 @@
 				"foreground": "#3794e0"
 			}
 		},	
+		
+		{
+			"name": "autolisp-prime",
+			"scope": [
+				"comment.autolisp-prime",
+				"comment.block.autolisp-prime"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#5faf5f"
+			}
+		},
 		{
 			"name": "autolisp-prime",
 			"scope": "operator.autolisp-prime",
@@ -57,12 +69,10 @@
 		{
 			"name": "autolisp-prime",
 			"scope": [
-				"comment.autolisp-prime",
-				"comment.block.autolisp-prime"
+				"keyword.autolisp-prime",
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#5faf5f"
+				"foreground": "#3794e0"
 			}
 		},
 		{
@@ -79,6 +89,40 @@
 			"scope": "string.autolisp-prime",
 			"settings": {
 				"foreground": "#d63ed1"
+			}
+		},
+		{
+			"name": "autolisp-prime",
+			"scope": [
+				"string.sysvar.drawing.autolisp-prime",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#a92fc2"
+			}
+		},
+		{
+			"name": "autolisp-prime",
+			"scope": [
+				"string.sysvar.not-saved.autolisp-prime",
+				"string.sysvar.registry.autolisp-prime",
+				"string.sysvar.user-settings.autolisp-prime"
+			],
+
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#d63ed1"
+			}
+		},
+		{
+			"name": "autolisp-prime",
+			"scope": [
+				"string.sysvar.unknown.autolisp-prime",
+			],
+
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#8f419e"
 			}
 		},
 		{

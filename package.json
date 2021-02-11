@@ -28,7 +28,8 @@
 		"onCommand:extension.utf8->codePoint",
 		"onCommand:extension.codePoint->utf8",
 		"onCommand:extension.SymbolNormalization",
-		"*"
+		"onLanguage:autolisp-prime",
+		"onLanguage:autolispdcl-prime"
 	],
 	"main": "./extension.js",
 	"contributes": {

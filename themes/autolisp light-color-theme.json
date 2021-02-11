@@ -94,6 +94,40 @@
 		},
 		{
 			"name": "autolisp-prime",
+			"scope": [
+				"string.sysvar.drawing.autolisp-prime",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#df00ff"
+			}
+		},
+		{
+			"name": "autolisp-prime",
+			"scope": [
+				"string.sysvar.not-saved.autolisp-prime",
+				"string.sysvar.registry.autolisp-prime",
+				"string.sysvar.user-settings.autolisp-prime"
+			],
+
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ff00ff"
+			}
+		},
+		{
+			"name": "autolisp-prime",
+			"scope": [
+				"string.sysvar.unknown.autolisp-prime",
+			],
+
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ba3ebe"
+			}
+		},
+		{
+			"name": "autolisp-prime",
 			"scope": "string.escape.autolisp-prime",
 			"settings": {
 				"foreground": "#c97405"
