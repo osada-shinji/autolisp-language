@@ -7,6 +7,7 @@
 		"editor.selectionHighlightBackground": "#8fe696"
 	},
 	"tokenColors": [
+		//autolisp-prime
 		{
 			"name": "autolisp-prime",
 			"scope": [
@@ -16,7 +17,10 @@
 				"keyword.enum.vlax.vb.autolisp-prime",
 				"keyword.func.acet.autolisp-prime",
 				"keyword.func.std.autolisp-prime",
-				"keyword.func.vl.autolisp-prime"
+				"keyword.func.vl.autolisp-prime",
+				"keyword.func.vlax.autolisp-prime",
+				"keyword.func.vlisp.autolisp-prime",
+				"keyword.func.vlr.autolisp-prime"
 			],
 			"settings": {
 				"foreground": "#0000ff"
@@ -34,17 +38,6 @@
 				"foreground": "#0000ff"
 			}
 		},
-		{
-			"name": "autolisp-prime",
-			"scope": [
-				"keyword.func.vlax.autolisp-prime",
-				"keyword.func.vlisp.autolisp-prime",
-				"keyword.func.vlr.autolisp-prime"
-			],
-			"settings": {
-				"foreground": "#0000ff"
-			}
-		},	
 		{
 			"name": "autolisp-prime",
 			"scope": [
@@ -76,7 +69,7 @@
 		{
 			"name": "autolisp-prime",
 			"scope": [
-				"numeric.autolisp-prime",
+				"constant.numeric.autolisp-prime",
 			],
 			"settings": {
 				"foreground": "#bd7b00"
@@ -152,6 +145,7 @@
 				"foreground": "#ff0000"
 			}
 		},
+		//autolispdcl-prime
 		{
 			"name": "autolispdcl-prime",
 			"scope": "operator.autolispdcl-prime",
@@ -183,7 +177,25 @@
 				"keyword.autolispdcl-prime",
 			],
 			"settings": {
+				"foreground": "#0088f7"
+			}
+		},
+		{
+			"name": "autolispdcl-prime",
+			"scope": [
+				"attribute.autolispdcl-prime",
+			],
+			"settings": {
 				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "autolispdcl-prime",
+			"scope": [
+				"tile.autolispdcl-prime",
+			],
+			"settings": {
+				"foreground": "#ae00ff"
 			}
 		},
 		{

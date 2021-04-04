@@ -1,4 +1,8 @@
 # Change Log
+## [2.3.x] 2021/04/04
+### Added descripton in snippets for system variables.
+### Added a hover provider for system variables.
+
 ## [2.2.x] 2020/12/05
 ### Added symbol normalization extension.
 ### Improved syntax highlighting.

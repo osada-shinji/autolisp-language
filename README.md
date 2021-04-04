@@ -7,8 +7,13 @@ This extension is a general-purpose coding environment for AutoCAD's AutoLISP la
 * Function input by IntelliSense.
 * Sysvar input by snippets.
 * Autolisp' color theme.
-* "dcl" support
+* Extension "dcl" support.
 * Convert code point and utf-8 by context menu in selection area.
+* Symbol normalization extension.
+* Descripton in snippets for system variables.
+* Hover provider for system variables.
+
+
 
 
 ### Autolisp' default configrations.
@@ -16,6 +21,9 @@ This extension is a general-purpose coding environment for AutoCAD's AutoLISP la
 		"editor.acceptSuggestionOnEnter": "off",
 		"editor.autoClosingBrackets": "never",
 		"editor.insertSpaces": false,
+		"editor.hover.delay": 100,
+		"editor.hover.enabled": true,
+		"editor.hover.sticky": false,
 		"editor.quickSuggestions": true,
 		"editor.tabSize": 4,
 		"editor.wordBasedSuggestions": false,
