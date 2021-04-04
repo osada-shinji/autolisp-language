@@ -1,5 +1,5 @@
 # Change Log
-## [2.3.x] 2021/04/04
+## [2.4.x] 2021/04/04
 ### Added descripton in snippets for system variables.
 ### Added a hover provider for system variables.
 
