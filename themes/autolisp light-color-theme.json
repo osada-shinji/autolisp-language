@@ -41,7 +41,6 @@
 		{
 			"name": "autolisp-prime",
 			"scope": [
-
 				"comment.autolisp-prime",
 				"comment.block.autolisp-prime"
 			],
@@ -80,7 +79,6 @@
 			"scope": [
 				"string.autolisp-prime",
 			],
-
 			"settings": {
 				"foreground": "#ff00ff"
 			}
@@ -202,7 +200,6 @@
 			"name": "autolispdcl-prime",
 			"scope": [
 				"constant.numeric.autolispdcl-prime",
-								
 			],
 			"settings": {
 				"foreground": "#b87905"
@@ -226,9 +223,6 @@
 				"foreground": "#ff0000"
 			}
 		},
-		
-		
-
 //For AutoCAD AutoLISP Extension
 		{
 			"name": "comment",

@@ -5,7 +5,6 @@
 		"editor.background": "#070707",
 		"editor.foreground": "#dfdfdf",
 		"editor.selectionHighlightBackground": "#3f3fef"
-
 	},
 	"tokenColors": [
 		//autolisp-prime
@@ -24,7 +23,6 @@
 				"keyword.func.vlr.autolisp-prime"
 			],
 			"settings": {
-				
 				"foreground": "#569CD6"
 			}
 		},
@@ -177,7 +175,25 @@
 				"keyword.autolispdcl-prime",
 			],
 			"settings": {
-				"foreground": "#4f9fdf"
+				"foreground": "#569CD6"
+			}
+		},
+		{
+			"name": "autolispdcl-prime",
+			"scope": [
+				"attribute.autolispdcl-prime",
+			],
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
+		{
+			"name": "autolispdcl-prime",
+			"scope": [
+				"tile.autolispdcl-prime",
+			],
+			"settings": {
+				"foreground": "#b25eda"
 			}
 		},
 		{
@@ -261,7 +277,7 @@
 		{
 			"name": "Comment",
 			"scope": [
-				//"comment",
+				"comment",
 				"punctuation.definition.comment"
 			],
 			"settings": {
