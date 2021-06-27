@@ -97,12 +97,12 @@
 		},
 		"themes": [
 			{
-				"label": "Autolisp' light theme",
+				"label": "Light+ with Autolisp'",
 				"uiTheme": "vs",
 				"path": "./themes/autolisp light-color-theme.json"
 			},
 			{
-				"label": "Autolisp' dark theme",
+				"label": "Dark+ with Autolisp'",
 				"uiTheme": "vs-dark",
 				"path": "./themes/autolisp dark-color-theme.json"
 			}

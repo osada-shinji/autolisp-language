@@ -1,4 +1,8 @@
 # Change Log
+## [2.5.x] 2021/07/01
+### Changed Autolisp's light theme to include Visual Studio Code's default Light+ theme as "Light+ with Autolisp'".
+### Changed Autolisp's dark theme to include Visual Studio Code's default Dark+ theme as "Dark+ with Autolisp'".
+
 ## [2.4.x] 2021/04/04
 ### Added descripton in snippets for system variables.
 ### Added a hover provider for system variables.
