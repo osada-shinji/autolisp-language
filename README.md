@@ -1,5 +1,7 @@
 # Autolisp' language support README
+
 ## Enjoy autolisp' language scripting
+
 This extension is a general-purpose coding environment for AutoCAD's AutoLISP language. It can also be used as a LISP development environment for compatible CAD.
 
 * With extension "lsp" "mnl".
@@ -15,46 +17,65 @@ This extension is a general-purpose coding environment for AutoCAD's AutoLISP la
 
 
 
+## Autolisp' default configrations.
 
-### Autolisp' default configrations.
-	"[autolisp-prime]": {
-		"editor.acceptSuggestionOnEnter": "off",
-		"editor.autoClosingBrackets": "never",
-		"editor.insertSpaces": false,
-		"editor.hover.delay": 100,
-		"editor.hover.enabled": true,
-		"editor.hover.sticky": false,
-		"editor.quickSuggestions": true,
-		"editor.tabSize": 4,
-		"editor.wordBasedSuggestions": false,
-		"editor.wordWrap": "on",
-		"files.encoding": "utf8"
-	},
-	
-### AutolispDCL' default configrations.
-	"[autolispdcl-prime]": {
-		"editor.acceptSuggestionOnEnter": "off",
-		"editor.autoClosingBrackets": "languageDefined",
-		"editor.insertSpaces": false,
-		"editor.quickSuggestions": true,
-		"editor.tabSize": 4,
-		"editor.wordBasedSuggestions": false,
-		"editor.wordWrap": "on",
-		"files.encoding": "utf8"
-	},
+VSCode settings.json
 
-## If you want to change encoding by yourself.
+```json
+"[autolisp-prime]": {
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.autoClosingBrackets": "never",
+	"editor.insertSpaces": false,
+	"editor.hover.delay": 100,
+	"editor.hover.enabled": true,
+	"editor.hover.sticky": false,
+	"editor.quickSuggestions": true,
+	"editor.tabSize": 4,
+	"editor.wordBasedSuggestions": false,
+	"editor.wordWrap": "on",
+	"files.encoding": "utf8"
+},
+```
 
-### VSCode settings.json
 
-### .lsp .mnl
 
-	"[autolisp-prime]": {
-		"files.encoding": "shiftjis"
-    },
+## AutolispDCL' default configrations.
 
-### .dcl
+VSCode settings.json
 
-	"[autolispdcl-prime]": {
-		"files.encoding": "shiftjis"
-    },
+```json
+"[autolispdcl-prime]": {
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.autoClosingBrackets": "languageDefined",
+	"editor.insertSpaces": false,
+	"editor.quickSuggestions": true,
+	"editor.tabSize": 4,
+	"editor.wordBasedSuggestions": false,
+	"editor.wordWrap": "on",
+	"files.encoding": "utf8"
+},
+```
+
+
+
+## Files encoding
+
+If you want to change encoding by yourself.
+
+
+
+ Autolisp' (*.lsp *.mnl )
+
+```json
+"[autolisp-prime]": {
+	"files.encoding": "shiftjis"
+},
+```
+
+AutolispDCL' (*.dcl)
+
+```json
+"[autolispdcl-prime]": {
+	"files.encoding": "shiftjis"
+},
+```
